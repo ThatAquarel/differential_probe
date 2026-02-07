@@ -1325,6 +1325,12 @@
 		(uuid "e6fd72e2-a214-4900-8357-d63896adf6d7")
 	)
 	(junction
+		(at 179.07 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e9792c93-8a45-4a8c-99f2-f6dc6ff1877a")
+	)
+	(junction
 		(at 90.17 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1437,6 +1443,16 @@
 			(type default)
 		)
 		(uuid "094a6143-3a6f-4374-ac1c-0ab1c7ea0650")
+	)
+	(wire
+		(pts
+			(xy 179.07 132.08) (xy 179.07 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0cafa22b-7373-421d-a43c-e44a399a1d37")
 	)
 	(wire
 		(pts
@@ -2080,6 +2096,16 @@
 	)
 	(wire
 		(pts
+			(xy 179.07 121.92) (xy 179.07 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8cc0d6f3-b06e-4c5b-bd74-ba3990e1f1fa")
+	)
+	(wire
+		(pts
 			(xy 87.63 144.78) (xy 87.63 139.7)
 		)
 		(stroke
@@ -2610,7 +2636,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00c5dd8c-ac8f-4f2b-8175-5a7ea83a96e2")
-		(property "Reference" "C50"
+		(property "Reference" "C63"
 			(at 199.898 92.202 90)
 			(effects
 				(font
@@ -2626,7 +2652,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 193.04 96.2152 0)
 			(effects
 				(font
@@ -2653,6 +2679,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C307331"
+			(at 196.85 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR PART #" ""
+			(at 196.85 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "28fffdb7-050c-4d7c-8ea3-72fe45b86c77")
 		)
@@ -2662,7 +2706,7 @@
 		(instances
 			(project "differential_probe"
 				(path "/e475881e-4af4-44b2-a426-a388e1088f28/83ca1ea1-200e-47ca-a388-a41ab5f208fb"
-					(reference "C50")
+					(reference "C63")
 					(unit 1)
 				)
 			)
@@ -2678,7 +2722,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0150d0e2-3a72-4823-a531-55abfe862e9a")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR042"
 			(at 90.17 146.05 0)
 			(effects
 				(font
@@ -2728,7 +2772,7 @@
 		(instances
 			(project "differential_probe"
 				(path "/e475881e-4af4-44b2-a426-a388e1088f28/83ca1ea1-200e-47ca-a388-a41ab5f208fb"
-					(reference "#PWR017")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -2744,7 +2788,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0c8c8355-dce3-46ba-ba08-3664bfd5de89")
-		(property "Reference" "R27"
+		(property "Reference" "R51"
 			(at 142.24 73.6599 0)
 			(effects
 				(font
@@ -2753,7 +2797,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "499R"
+		(property "Value" "470"
 			(at 142.24 76.1999 0)
 			(effects
 				(font
@@ -2762,7 +2806,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 137.922 74.93 90)
 			(effects
 				(font
@@ -2789,6 +2833,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C17710"
+			(at 139.7 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR PART #" ""
+			(at 139.7 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "d08a66f4-0b28-4aaa-bbff-f1b52a92ae49")
 		)
@@ -2798,7 +2860,7 @@
 		(instances
 			(project "differential_probe"
 				(path "/e475881e-4af4-44b2-a426-a388e1088f28/83ca1ea1-200e-47ca-a388-a41ab5f208fb"
-					(reference "R27")
+					(reference "R51")
 					(unit 1)
 				)
 			)
@@ -2813,7 +2875,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "101cd803-0488-477b-b040-c35cb770d5c7")
-		(property "Reference" "C42"
+		(property "Reference" "C65"
 			(at 98.298 115.062 90)
 			(effects
 				(font
@@ -2829,7 +2891,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 91.44 119.0752 0)
 			(effects
 				(font
@@ -2856,6 +2918,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C307331"
+			(at 95.25 118.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR PART #" ""
+			(at 95.25 118.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e1b32399-871a-4be6-b373-e12960928be7")
 		)
@@ -2865,7 +2945,7 @@
 		(instances
 			(project "differential_probe"
 				(path "/e475881e-4af4-44b2-a426-a388e1088f28/83ca1ea1-200e-47ca-a388-a41ab5f208fb"
-					(reference "C42")
+					(reference "C65")
 					(unit 1)
 				)
 			)
@@ -2881,7 +2961,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1495176b-c1aa-406d-807c-e7368539b4b7")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR034"
 			(at 213.36 90.17 0)
 			(effects
 				(font
@@ -2932,7 +3012,7 @@
 		(instances
 			(project "differential_probe"
 				(path "/e475881e-4af4-44b2-a426-a388e1088f28/83ca1ea1-200e-47ca-a388-a41ab5f208fb"
-					(reference "#PWR043")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -2948,7 +3028,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1bf15c4f-de56-40e8-97d8-aeec7f26af96")
-		(property "Reference" "C34"
+		(property "Reference" "C59"
 			(at 82.55 80.264 90)
 			(effects
 				(font
@@ -2956,7 +3036,7 @@
 				)
 			)
 		)
-		(property "Value" "0.25p"
+		(property "Value" "0.3p"
 			(at 82.55 77.724 90)
 			(effects
 				(font
@@ -2964,7 +3044,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 86.36 74.6252 0)
 			(effects
 				(font
@@ -2991,6 +3071,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 82.55 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR PART #" "GJM1555C1HR30WB01D"
+			(at 82.55 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "67bd1f83-c7d5-4092-80b5-da12517bfb27")
 		)
@@ -3000,7 +3098,7 @@
 		(instances
 			(project "differential_probe"
 				(path "/e475881e-4af4-44b2-a426-a388e1088f28/83ca1ea1-200e-47ca-a388-a41ab5f208fb"
-					(reference "C34")
+					(reference "C59")
 					(unit 1)
 				)
 			)
@@ -3015,7 +3113,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "26759af6-bbd4-44db-955f-e62a688b27a2")
-		(property "Reference" "C41"
+		(property "Reference" "C64"
 			(at 98.552 109.982 90)
 			(effects
 				(font
@@ -3023,7 +3121,7 @@
 				)
 			)
 		)
-		(property "Value" "3.3u"
+		(property "Value" "10u"
 			(at 98.806 111.76 90)
 			(effects
 				(font
@@ -3031,7 +3129,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 99.06 112.0648 0)
 			(effects
 				(font
@@ -3058,6 +3156,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C13585"
+			(at 95.25 113.03 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR PART #" ""
+			(at 95.25 113.03 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "637b73b5-1f26-47c9-873e-8375192d93e6")
 		)
@@ -3067,7 +3183,73 @@
 		(instances
 			(project "differential_probe"
 				(path "/e475881e-4af4-44b2-a426-a388e1088f28/83ca1ea1-200e-47ca-a388-a41ab5f208fb"
-					(reference "C41")
+					(reference "C64")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 179.07 133.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "28a34968-b77c-43b9-8654-80f42f2f0995")
+		(property "Reference" "#PWR040"
+			(at 179.07 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 179.07 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 179.07 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 179.07 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 179.07 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3c8b33ee-4d86-4ca2-8ede-2d1b5cadd031")
+		)
+		(instances
+			(project "differential_probe"
+				(path "/e475881e-4af4-44b2-a426-a388e1088f28/83ca1ea1-200e-47ca-a388-a41ab5f208fb"
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -3083,7 +3265,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2ae99864-8944-4d31-921a-1e4d5974581b")
-		(property "Reference" "R29"
+		(property "Reference" "R58"
 			(at 142.24 144.7799 0)
 			(effects
 				(font
@@ -3092,7 +3274,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "499R"
+		(property "Value" "470"
 			(at 142.24 147.3199 0)
 			(effects
 				(font
@@ -3101,7 +3283,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 137.922 146.05 90)
 			(effects
 				(font
@@ -3128,6 +3310,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C17710"
+			(at 139.7 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR PART #" ""
+			(at 139.7 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "651ac83f-d204-44c9-8342-5a97f19db7ae")
 		)
@@ -3137,7 +3337,7 @@
 		(instances
 			(project "differential_probe"
 				(path "/e475881e-4af4-44b2-a426-a388e1088f28/83ca1ea1-200e-47ca-a388-a41ab5f208fb"
-					(reference "R29")
+					(reference "R58")
 					(unit 1)
 				)
 			)
@@ -3153,7 +3353,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2dcccac9-1dac-4bd1-ad62-2af2476514de")
-		(property "Reference" "R26"
+		(property "Reference" "R57"
 			(at 82.55 135.636 90)
 			(effects
 				(font
@@ -3169,7 +3369,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 82.55 141.478 90)
 			(effects
 				(font
@@ -3196,6 +3396,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C17168"
+			(at 82.55 139.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR PART #" ""
+			(at 82.55 139.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "cb4237ec-6ed1-44b5-8200-84b2f23c2b2b")
 		)
@@ -3205,7 +3423,7 @@
 		(instances
 			(project "differential_probe"
 				(path "/e475881e-4af4-44b2-a426-a388e1088f28/83ca1ea1-200e-47ca-a388-a41ab5f208fb"
-					(reference "R26")
+					(reference "R57")
 					(unit 1)
 				)
 			)
@@ -3220,7 +3438,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "374620a4-a0b0-4967-91de-c0acd383547e")
-		(property "Reference" "C35"
+		(property "Reference" "C56"
 			(at 98.552 38.862 90)
 			(effects
 				(font
@@ -3228,7 +3446,7 @@
 				)
 			)
 		)
-		(property "Value" "3.3u"
+		(property "Value" "10u"
 			(at 98.806 40.64 90)
 			(effects
 				(font
@@ -3236,7 +3454,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 99.06 40.9448 0)
 			(effects
 				(font
@@ -3263,6 +3481,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C13585"
+			(at 95.25 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR PART #" ""
+			(at 95.25 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "93029ff3-1d54-4bda-8891-8a774b88a1e9")
 		)
@@ -3272,7 +3508,7 @@
 		(instances
 			(project "differential_probe"
 				(path "/e475881e-4af4-44b2-a426-a388e1088f28/83ca1ea1-200e-47ca-a388-a41ab5f208fb"
-					(reference "C35")
+					(reference "C56")
 					(unit 1)
 				)
 			)
@@ -3288,7 +3524,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3849e83e-c0c6-494a-8818-323dbb8a1668")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR041"
 			(at 111.76 148.59 0)
 			(effects
 				(font
@@ -3339,7 +3575,7 @@
 		(instances
 			(project "differential_probe"
 				(path "/e475881e-4af4-44b2-a426-a388e1088f28/83ca1ea1-200e-47ca-a388-a41ab5f208fb"
-					(reference "#PWR039")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -3355,7 +3591,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3db3d666-3baf-417d-a3cc-863b38acd017")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR035"
 			(at 90.17 115.57 0)
 			(effects
 				(font
@@ -3405,7 +3641,7 @@
 		(instances
 			(project "differential_probe"
 				(path "/e475881e-4af4-44b2-a426-a388e1088f28/83ca1ea1-200e-47ca-a388-a41ab5f208fb"
-					(reference "#PWR013")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -3421,7 +3657,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3e00861c-1708-4e18-a27b-bccba8c49083")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR031"
 			(at 90.17 74.93 0)
 			(effects
 				(font
@@ -3471,7 +3707,7 @@
 		(instances
 			(project "differential_probe"
 				(path "/e475881e-4af4-44b2-a426-a388e1088f28/83ca1ea1-200e-47ca-a388-a41ab5f208fb"
-					(reference "#PWR016")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -3487,7 +3723,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "459e534c-0b0a-4b3b-acc6-aa6b32e2ce93")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR033"
 			(at 191.77 92.71 0)
 			(effects
 				(font
@@ -3537,7 +3773,7 @@
 		(instances
 			(project "differential_probe"
 				(path "/e475881e-4af4-44b2-a426-a388e1088f28/83ca1ea1-200e-47ca-a388-a41ab5f208fb"
-					(reference "#PWR015")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -3553,7 +3789,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "48c96916-25b9-4ac3-b41b-021ef85b3eba")
-		(property "Reference" "R31"
+		(property "Reference" "R53"
 			(at 228.6 111.7599 0)
 			(effects
 				(font
@@ -3571,7 +3807,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 224.282 113.03 90)
 			(effects
 				(font
@@ -3598,6 +3834,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C4410"
+			(at 226.06 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR PART #" ""
+			(at 226.06 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "32bf2b27-333b-4074-8fc5-e8228be4b8b9")
 		)
@@ -3607,7 +3861,93 @@
 		(instances
 			(project "differential_probe"
 				(path "/e475881e-4af4-44b2-a426-a388e1088f28/83ca1ea1-200e-47ca-a388-a41ab5f208fb"
-					(reference "R31")
+					(reference "R53")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 179.07 128.27 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "4cc916ae-2dfb-48bc-9ca9-398c8125c84c")
+		(property "Reference" "R55"
+			(at 175.006 128.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 176.784 128.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+			(at 180.848 128.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 179.07 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 179.07 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 179.07 128.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR PART #" ""
+			(at 179.07 128.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f131ee4f-0206-4453-92f5-8a8b4de7098e")
+		)
+		(pin "2"
+			(uuid "e1977069-e210-4a53-bf59-6e5e95ba5b91")
+		)
+		(instances
+			(project "differential_probe"
+				(path "/e475881e-4af4-44b2-a426-a388e1088f28/83ca1ea1-200e-47ca-a388-a41ab5f208fb"
+					(reference "R55")
 					(unit 1)
 				)
 			)
@@ -3623,7 +3963,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "57655597-e72f-4c60-b82b-ba38292da01b")
-		(property "Reference" "R25"
+		(property "Reference" "R49"
 			(at 142.24 63.4999 0)
 			(effects
 				(font
@@ -3632,7 +3972,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "499R"
+		(property "Value" "470"
 			(at 142.24 66.0399 0)
 			(effects
 				(font
@@ -3641,7 +3981,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 137.922 64.77 90)
 			(effects
 				(font
@@ -3668,6 +4008,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C17710"
+			(at 139.7 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR PART #" ""
+			(at 139.7 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "7dbeb523-c078-4700-a57f-871199bae8f5")
 		)
@@ -3677,7 +4035,7 @@
 		(instances
 			(project "differential_probe"
 				(path "/e475881e-4af4-44b2-a426-a388e1088f28/83ca1ea1-200e-47ca-a388-a41ab5f208fb"
-					(reference "R25")
+					(reference "R49")
 					(unit 1)
 				)
 			)
@@ -3693,7 +4051,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "58729e79-2f6b-4931-ae75-bc29ce64ad98")
-		(property "Reference" "L3"
+		(property "Reference" "L2"
 			(at 124.46 53.34 90)
 			(effects
 				(font
@@ -3701,7 +4059,7 @@
 				)
 			)
 		)
-		(property "Value" "33n"
+		(property "Value" "47n"
 			(at 124.46 55.88 90)
 			(effects
 				(font
@@ -3709,7 +4067,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0402_1005Metric_Pad0.77x0.64mm_HandSolder"
 			(at 124.46 59.69 0)
 			(effects
 				(font
@@ -3736,6 +4094,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 124.46 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR PART #" "LQW15AN47NJ00D"
+			(at 124.46 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "18b1608b-a91c-4512-9121-d257f2f93230")
 		)
@@ -3745,7 +4121,7 @@
 		(instances
 			(project "differential_probe"
 				(path "/e475881e-4af4-44b2-a426-a388e1088f28/83ca1ea1-200e-47ca-a388-a41ab5f208fb"
-					(reference "L3")
+					(reference "L2")
 					(unit 1)
 				)
 			)
@@ -3760,7 +4136,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5967f823-f0ee-403f-a594-66f3ccc78fdc")
-		(property "Reference" "C45"
+		(property "Reference" "C72"
 			(at 98.552 145.542 90)
 			(effects
 				(font
@@ -3768,7 +4144,7 @@
 				)
 			)
 		)
-		(property "Value" "3.3u"
+		(property "Value" "10u"
 			(at 98.806 147.32 90)
 			(effects
 				(font
@@ -3776,7 +4152,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 99.06 147.6248 0)
 			(effects
 				(font
@@ -3803,6 +4179,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C13585"
+			(at 95.25 148.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR PART #" ""
+			(at 95.25 148.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "cef0203e-c35a-4c3d-b1b1-c6c5becbc3d4")
 		)
@@ -3812,7 +4206,7 @@
 		(instances
 			(project "differential_probe"
 				(path "/e475881e-4af4-44b2-a426-a388e1088f28/83ca1ea1-200e-47ca-a388-a41ab5f208fb"
-					(reference "C45")
+					(reference "C72")
 					(unit 1)
 				)
 			)
@@ -3863,6 +4257,24 @@
 			)
 		)
 		(property "Description" "Single High-voltage, High Slew Rate, Wideband, FET-input Operational Amplifier, SOIC-8"
+			(at 194.31 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 194.31 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR PART #" "THS4631DR"
 			(at 194.31 107.95 0)
 			(effects
 				(font
@@ -3957,6 +4369,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 92.71 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR PART #" "THS4631DR"
+			(at 92.71 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "a94245bf-f4bf-4a83-95ba-8bdd2f7a11c8")
 		)
@@ -4000,7 +4430,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6a0f39f3-d68f-4707-8446-29b035470e76")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR039"
 			(at 191.77 123.19 0)
 			(effects
 				(font
@@ -4050,7 +4480,7 @@
 		(instances
 			(project "differential_probe"
 				(path "/e475881e-4af4-44b2-a426-a388e1088f28/83ca1ea1-200e-47ca-a388-a41ab5f208fb"
-					(reference "#PWR018")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -4066,7 +4496,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6b423282-0f41-4481-ab00-0b2492ec5fdb")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR036"
 			(at 111.76 113.03 0)
 			(effects
 				(font
@@ -4117,7 +4547,7 @@
 		(instances
 			(project "differential_probe"
 				(path "/e475881e-4af4-44b2-a426-a388e1088f28/83ca1ea1-200e-47ca-a388-a41ab5f208fb"
-					(reference "#PWR038")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -4132,7 +4562,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "81b36428-3336-4d0b-b187-99718f8b123c")
-		(property "Reference" "C36"
+		(property "Reference" "C57"
 			(at 98.298 43.942 90)
 			(effects
 				(font
@@ -4148,7 +4578,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 91.44 47.9552 0)
 			(effects
 				(font
@@ -4175,6 +4605,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C307331"
+			(at 95.25 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR PART #" ""
+			(at 95.25 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "48e3873d-c95a-44e3-8f9b-3c98934ddbe7")
 		)
@@ -4184,7 +4632,7 @@
 		(instances
 			(project "differential_probe"
 				(path "/e475881e-4af4-44b2-a426-a388e1088f28/83ca1ea1-200e-47ca-a388-a41ab5f208fb"
-					(reference "C36")
+					(reference "C57")
 					(unit 1)
 				)
 			)
@@ -4200,7 +4648,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8c4d9e0c-e28f-4229-b69f-4b7e31e9724b")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR028"
 			(at 90.17 44.45 0)
 			(effects
 				(font
@@ -4250,7 +4698,7 @@
 		(instances
 			(project "differential_probe"
 				(path "/e475881e-4af4-44b2-a426-a388e1088f28/83ca1ea1-200e-47ca-a388-a41ab5f208fb"
-					(reference "#PWR014")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -4265,7 +4713,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8e3042d9-49de-4ecd-b9cf-edc1819195ba")
-		(property "Reference" "C44"
+		(property "Reference" "C69"
 			(at 98.298 140.716 90)
 			(effects
 				(font
@@ -4281,7 +4729,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 99.06 142.5448 0)
 			(effects
 				(font
@@ -4308,6 +4756,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C307331"
+			(at 95.25 143.51 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR PART #" ""
+			(at 95.25 143.51 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "afdf700a-0cb5-4d86-a417-ec3320f97f77")
 		)
@@ -4317,7 +4783,7 @@
 		(instances
 			(project "differential_probe"
 				(path "/e475881e-4af4-44b2-a426-a388e1088f28/83ca1ea1-200e-47ca-a388-a41ab5f208fb"
-					(reference "C44")
+					(reference "C69")
 					(unit 1)
 				)
 			)
@@ -4333,7 +4799,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "90754ec6-0c98-443b-9683-676d3076e4c2")
-		(property "Reference" "R30"
+		(property "Reference" "R54"
 			(at 184.15 112.776 90)
 			(effects
 				(font
@@ -4349,7 +4815,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 184.15 118.618 90)
 			(effects
 				(font
@@ -4376,6 +4842,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C17168"
+			(at 184.15 116.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR PART #" ""
+			(at 184.15 116.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "57042472-5a6b-4155-a07b-cbb7f4b5fb6b")
 		)
@@ -4385,7 +4869,7 @@
 		(instances
 			(project "differential_probe"
 				(path "/e475881e-4af4-44b2-a426-a388e1088f28/83ca1ea1-200e-47ca-a388-a41ab5f208fb"
-					(reference "R30")
+					(reference "R54")
 					(unit 1)
 				)
 			)
@@ -4401,7 +4885,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "96fd5189-93b0-4aa2-989d-54a2c2e69e70")
-		(property "Reference" "C43"
+		(property "Reference" "C60"
 			(at 153.67 73.6599 0)
 			(effects
 				(font
@@ -4419,7 +4903,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 148.8948 78.74 0)
 			(effects
 				(font
@@ -4446,6 +4930,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 149.86 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR PART #" "GJM1555C1HR80WB01D"
+			(at 149.86 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b2af6e5e-a1f6-496f-8223-97b09261d200")
 		)
@@ -4455,7 +4957,7 @@
 		(instances
 			(project "differential_probe"
 				(path "/e475881e-4af4-44b2-a426-a388e1088f28/83ca1ea1-200e-47ca-a388-a41ab5f208fb"
-					(reference "C43")
+					(reference "C60")
 					(unit 1)
 				)
 			)
@@ -4471,7 +4973,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "987b3733-8959-43d6-9312-404162a18534")
-		(property "Reference" "L2"
+		(property "Reference" "L3"
 			(at 124.46 124.46 90)
 			(effects
 				(font
@@ -4479,7 +4981,7 @@
 				)
 			)
 		)
-		(property "Value" "33n"
+		(property "Value" "47n"
 			(at 124.46 127 90)
 			(effects
 				(font
@@ -4487,7 +4989,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0402_1005Metric_Pad0.77x0.64mm_HandSolder"
 			(at 124.46 130.81 0)
 			(effects
 				(font
@@ -4514,6 +5016,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 124.46 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR PART #" "LQW15AN47NJ00D"
+			(at 124.46 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "92fa55cf-443b-414c-9208-d1733441b55b")
 		)
@@ -4523,7 +5043,7 @@
 		(instances
 			(project "differential_probe"
 				(path "/e475881e-4af4-44b2-a426-a388e1088f28/83ca1ea1-200e-47ca-a388-a41ab5f208fb"
-					(reference "L2")
+					(reference "L3")
 					(unit 1)
 				)
 			)
@@ -4539,7 +5059,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9a7ce41d-a384-41c4-b50f-a743cb89dde6")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR032"
 			(at 139.7 87.63 0)
 			(effects
 				(font
@@ -4589,7 +5109,7 @@
 		(instances
 			(project "differential_probe"
 				(path "/e475881e-4af4-44b2-a426-a388e1088f28/83ca1ea1-200e-47ca-a388-a41ab5f208fb"
-					(reference "#PWR037")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -4605,7 +5125,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ae0f4a1c-113b-4a5c-8d66-6a88d4518e77")
-		(property "Reference" "R32"
+		(property "Reference" "R52"
 			(at 241.3 101.6 90)
 			(effects
 				(font
@@ -4613,7 +5133,7 @@
 				)
 			)
 		)
-		(property "Value" "49.9R"
+		(property "Value" "49.9"
 			(at 241.3 104.14 90)
 			(effects
 				(font
@@ -4621,7 +5141,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 241.3 109.728 90)
 			(effects
 				(font
@@ -4648,6 +5168,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C17720"
+			(at 241.3 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR PART #" ""
+			(at 241.3 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "0fc11cc3-fe50-4d0a-bb2f-aee92d937752")
 		)
@@ -4657,7 +5195,7 @@
 		(instances
 			(project "differential_probe"
 				(path "/e475881e-4af4-44b2-a426-a388e1088f28/83ca1ea1-200e-47ca-a388-a41ab5f208fb"
-					(reference "R32")
+					(reference "R52")
 					(unit 1)
 				)
 			)
@@ -4673,7 +5211,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b2bbcab0-d516-42e2-ac77-3de1630a7eed")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR030"
 			(at 111.76 77.47 0)
 			(effects
 				(font
@@ -4724,7 +5262,7 @@
 		(instances
 			(project "differential_probe"
 				(path "/e475881e-4af4-44b2-a426-a388e1088f28/83ca1ea1-200e-47ca-a388-a41ab5f208fb"
-					(reference "#PWR036")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -4783,6 +5321,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 92.71 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR PART #" "THS4631DR"
+			(at 92.71 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b2bffc38-81a5-4d18-a721-53bf272616bd")
 		)
@@ -4826,7 +5382,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b4e59c2b-2cb3-44da-8868-b2f0fbb41a91")
-		(property "Reference" "C47"
+		(property "Reference" "C71"
 			(at 153.67 144.7799 0)
 			(effects
 				(font
@@ -4844,7 +5400,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 148.8948 149.86 0)
 			(effects
 				(font
@@ -4871,6 +5427,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 149.86 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR PART #" "GJM1555C1HR80WB01D"
+			(at 149.86 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "39ca23c5-8442-4b18-8beb-a88cac5a99f5")
 		)
@@ -4880,7 +5454,7 @@
 		(instances
 			(project "differential_probe"
 				(path "/e475881e-4af4-44b2-a426-a388e1088f28/83ca1ea1-200e-47ca-a388-a41ab5f208fb"
-					(reference "C47")
+					(reference "C71")
 					(unit 1)
 				)
 			)
@@ -4895,7 +5469,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b9f59f23-75ae-4a39-b349-37c65f8acd70")
-		(property "Reference" "C51"
+		(property "Reference" "C66"
 			(at 199.898 117.856 90)
 			(effects
 				(font
@@ -4911,7 +5485,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 200.66 119.6848 0)
 			(effects
 				(font
@@ -4938,6 +5512,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C307331"
+			(at 196.85 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR PART #" ""
+			(at 196.85 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f378e228-ff6b-4884-88b6-44adb02fc47f")
 		)
@@ -4947,7 +5539,7 @@
 		(instances
 			(project "differential_probe"
 				(path "/e475881e-4af4-44b2-a426-a388e1088f28/83ca1ea1-200e-47ca-a388-a41ab5f208fb"
-					(reference "C51")
+					(reference "C66")
 					(unit 1)
 				)
 			)
@@ -4963,7 +5555,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bb92be09-456a-4fcf-a998-c9b3c3425fc4")
-		(property "Reference" "C40"
+		(property "Reference" "C70"
 			(at 82.55 151.384 90)
 			(effects
 				(font
@@ -4971,7 +5563,7 @@
 				)
 			)
 		)
-		(property "Value" "0.25p"
+		(property "Value" "0.3p"
 			(at 82.55 148.844 90)
 			(effects
 				(font
@@ -4979,7 +5571,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 86.36 145.7452 0)
 			(effects
 				(font
@@ -5006,6 +5598,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 82.55 144.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR PART #" "GJM1555C1HR30WB01D"
+			(at 82.55 144.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2d5be74c-66bd-42fb-94e1-05681b09a511")
 		)
@@ -5015,7 +5625,7 @@
 		(instances
 			(project "differential_probe"
 				(path "/e475881e-4af4-44b2-a426-a388e1088f28/83ca1ea1-200e-47ca-a388-a41ab5f208fb"
-					(reference "C40")
+					(reference "C70")
 					(unit 1)
 				)
 			)
@@ -5031,7 +5641,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c4d52743-8129-40e7-a7e1-e7aa7659f10e")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR029"
 			(at 111.76 41.91 0)
 			(effects
 				(font
@@ -5082,7 +5692,7 @@
 		(instances
 			(project "differential_probe"
 				(path "/e475881e-4af4-44b2-a426-a388e1088f28/83ca1ea1-200e-47ca-a388-a41ab5f208fb"
-					(reference "#PWR033")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -5098,7 +5708,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c54ffbb8-d528-4f29-9451-e96097adc243")
-		(property "Reference" "R24"
+		(property "Reference" "R50"
 			(at 82.55 64.516 90)
 			(effects
 				(font
@@ -5114,7 +5724,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 82.55 70.358 90)
 			(effects
 				(font
@@ -5141,6 +5751,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C17168"
+			(at 82.55 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR PART #" ""
+			(at 82.55 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7b3d23c5-bec8-495c-9d70-00dc041f4916")
 		)
@@ -5150,7 +5778,7 @@
 		(instances
 			(project "differential_probe"
 				(path "/e475881e-4af4-44b2-a426-a388e1088f28/83ca1ea1-200e-47ca-a388-a41ab5f208fb"
-					(reference "R24")
+					(reference "R50")
 					(unit 1)
 				)
 			)
@@ -5166,7 +5794,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ca675871-760e-4c5f-bca9-2b00c88f00e8")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR037"
 			(at 226.06 124.46 0)
 			(effects
 				(font
@@ -5216,7 +5844,7 @@
 		(instances
 			(project "differential_probe"
 				(path "/e475881e-4af4-44b2-a426-a388e1088f28/83ca1ea1-200e-47ca-a388-a41ab5f208fb"
-					(reference "#PWR045")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -5232,7 +5860,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cc8e90b0-ff4d-4c6d-b82a-8d1f6112108d")
-		(property "Reference" "R28"
+		(property "Reference" "R56"
 			(at 142.24 134.6199 0)
 			(effects
 				(font
@@ -5241,7 +5869,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "499R"
+		(property "Value" "470"
 			(at 142.24 137.1599 0)
 			(effects
 				(font
@@ -5250,7 +5878,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 137.922 135.89 90)
 			(effects
 				(font
@@ -5277,6 +5905,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C17710"
+			(at 139.7 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR PART #" ""
+			(at 139.7 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "ee18a64b-5a42-458b-b7e7-2923cc74246e")
 		)
@@ -5286,7 +5932,7 @@
 		(instances
 			(project "differential_probe"
 				(path "/e475881e-4af4-44b2-a426-a388e1088f28/83ca1ea1-200e-47ca-a388-a41ab5f208fb"
-					(reference "R28")
+					(reference "R56")
 					(unit 1)
 				)
 			)
@@ -5301,7 +5947,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ce01f46a-5fb7-42eb-90e3-138eae45da07")
-		(property "Reference" "C52"
+		(property "Reference" "C68"
 			(at 200.152 122.682 90)
 			(effects
 				(font
@@ -5309,7 +5955,7 @@
 				)
 			)
 		)
-		(property "Value" "3.3u"
+		(property "Value" "10u"
 			(at 200.406 124.46 90)
 			(effects
 				(font
@@ -5317,7 +5963,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 200.66 124.7648 0)
 			(effects
 				(font
@@ -5344,6 +5990,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C13585"
+			(at 196.85 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR PART #" ""
+			(at 196.85 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "246d7142-8b65-4768-adba-5c26442bdeed")
 		)
@@ -5353,7 +6017,7 @@
 		(instances
 			(project "differential_probe"
 				(path "/e475881e-4af4-44b2-a426-a388e1088f28/83ca1ea1-200e-47ca-a388-a41ab5f208fb"
-					(reference "C52")
+					(reference "C68")
 					(unit 1)
 				)
 			)
@@ -5368,7 +6032,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ce988e55-3ef0-4b17-b230-37a0b02c4374")
-		(property "Reference" "C49"
+		(property "Reference" "C62"
 			(at 200.152 87.122 90)
 			(effects
 				(font
@@ -5376,7 +6040,7 @@
 				)
 			)
 		)
-		(property "Value" "3.3u"
+		(property "Value" "10u"
 			(at 200.406 88.9 90)
 			(effects
 				(font
@@ -5384,7 +6048,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 200.66 89.2048 0)
 			(effects
 				(font
@@ -5411,6 +6075,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C13585"
+			(at 196.85 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR PART #" ""
+			(at 196.85 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5b244a40-c093-4a41-9929-bf70a88266e3")
 		)
@@ -5420,7 +6102,7 @@
 		(instances
 			(project "differential_probe"
 				(path "/e475881e-4af4-44b2-a426-a388e1088f28/83ca1ea1-200e-47ca-a388-a41ab5f208fb"
-					(reference "C49")
+					(reference "C62")
 					(unit 1)
 				)
 			)
@@ -5435,7 +6117,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ddddae26-6e05-42bb-ab46-d9342241476a")
-		(property "Reference" "C37"
+		(property "Reference" "C58"
 			(at 98.298 69.596 90)
 			(effects
 				(font
@@ -5451,7 +6133,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 99.06 71.4248 0)
 			(effects
 				(font
@@ -5478,6 +6160,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C307331"
+			(at 95.25 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR PART #" ""
+			(at 95.25 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "495591ba-e2b1-4592-8802-e0ab0ee9af23")
 		)
@@ -5487,7 +6187,7 @@
 		(instances
 			(project "differential_probe"
 				(path "/e475881e-4af4-44b2-a426-a388e1088f28/83ca1ea1-200e-47ca-a388-a41ab5f208fb"
-					(reference "C37")
+					(reference "C58")
 					(unit 1)
 				)
 			)
@@ -5502,7 +6202,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e0cdc145-fc30-4c71-bc01-9ddd5fdbecc3")
-		(property "Reference" "C38"
+		(property "Reference" "C61"
 			(at 98.552 74.422 90)
 			(effects
 				(font
@@ -5510,7 +6210,7 @@
 				)
 			)
 		)
-		(property "Value" "3.3u"
+		(property "Value" "10u"
 			(at 98.806 76.2 90)
 			(effects
 				(font
@@ -5518,7 +6218,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 99.06 76.5048 0)
 			(effects
 				(font
@@ -5545,6 +6245,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C13585"
+			(at 95.25 77.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR PART #" ""
+			(at 95.25 77.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6f95e17c-a2a3-477b-8039-3a836d1f28a2")
 		)
@@ -5554,7 +6272,7 @@
 		(instances
 			(project "differential_probe"
 				(path "/e475881e-4af4-44b2-a426-a388e1088f28/83ca1ea1-200e-47ca-a388-a41ab5f208fb"
-					(reference "C38")
+					(reference "C61")
 					(unit 1)
 				)
 			)
@@ -5570,7 +6288,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f1c91d74-da70-4ead-88d6-1650f5f1eff0")
-		(property "Reference" "C48"
+		(property "Reference" "C67"
 			(at 184.15 128.524 90)
 			(effects
 				(font
@@ -5578,7 +6296,7 @@
 				)
 			)
 		)
-		(property "Value" "0.5p"
+		(property "Value" "0.3p"
 			(at 184.15 125.984 90)
 			(effects
 				(font
@@ -5586,7 +6304,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 187.96 122.8852 0)
 			(effects
 				(font
@@ -5613,6 +6331,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 184.15 121.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR PART #" "GJM1555C1HR30WB01D"
+			(at 184.15 121.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "afe9fb66-fc4e-448d-82c4-66c90b76fae8")
 		)
@@ -5622,7 +6358,7 @@
 		(instances
 			(project "differential_probe"
 				(path "/e475881e-4af4-44b2-a426-a388e1088f28/83ca1ea1-200e-47ca-a388-a41ab5f208fb"
-					(reference "C48")
+					(reference "C67")
 					(unit 1)
 				)
 			)
@@ -5638,7 +6374,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fc918341-b444-4438-8942-541b794723d0")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR043"
 			(at 139.7 158.75 0)
 			(effects
 				(font
@@ -5688,7 +6424,7 @@
 		(instances
 			(project "differential_probe"
 				(path "/e475881e-4af4-44b2-a426-a388e1088f28/83ca1ea1-200e-47ca-a388-a41ab5f208fb"
-					(reference "#PWR040")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -5704,7 +6440,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fcbd7351-b37c-4d06-be5e-15109990a894")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR038"
 			(at 213.36 125.73 0)
 			(effects
 				(font
@@ -5755,7 +6491,7 @@
 		(instances
 			(project "differential_probe"
 				(path "/e475881e-4af4-44b2-a426-a388e1088f28/83ca1ea1-200e-47ca-a388-a41ab5f208fb"
-					(reference "#PWR044")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)

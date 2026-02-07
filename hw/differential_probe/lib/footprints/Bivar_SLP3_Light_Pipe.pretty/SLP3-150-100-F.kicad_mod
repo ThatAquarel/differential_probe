@@ -1,0 +1,172 @@
+(footprint "SLP3-150-100-F"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -3 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "03b853d2-b5a0-468c-bfa1-d6f736e86709")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "SLP3-150-100-F"
+		(at 0 9.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "2defbe6b-35cf-42da-b844-9f672d4d8087")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b0d247c8-d0f0-4d62-aa44-b828f1429a8f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6a907cfd-2d4c-4e1b-8cb8-e76c6e83519a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -2.3 -1.2)
+		(end 2.3 1)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "ea325d84-4482-4776-a020-a64042504ba3")
+	)
+	(fp_rect
+		(start -2.3 4.4)
+		(end 2.3 5.3)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "6b12ce81-e960-40e0-9212-2df7973e760f")
+	)
+	(fp_rect
+		(start -2.2606 -1.143)
+		(end 2.2606 0.9144)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "9d36ac21-47ba-4560-a6e3-555531e046ed")
+	)
+	(fp_rect
+		(start -2.2606 0.9144)
+		(end 2.2606 4.4704)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "e27ff976-d062-4f3a-9556-1f55db572bb5")
+	)
+	(fp_rect
+		(start -2.2606 4.4704)
+		(end 2.2606 5.207)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "dc84a086-7daa-44f7-92aa-f94a791a712b")
+	)
+	(fp_rect
+		(start -2.2606 4.5)
+		(end 2.2606 5.2366)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "cd85c658-655c-4058-9a0e-c6da8eeb5b3e")
+	)
+	(fp_rect
+		(start -1.4986 5.207)
+		(end 1.4986 7.747)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "8dc68323-ed0b-403f-ac17-f90220871a08")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 11 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "6cf27f79-f9b7-425b-a24b-17e651f35181")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at -1.27 0)
+		(size 1.3208 1.3208)
+		(drill 1.3208)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "f94ba41a-3387-4db2-a2e8-9fb0f02a5543")
+	)
+	(pad "" np_thru_hole circle
+		(at 1.27 0)
+		(size 1.3208 1.3208)
+		(drill 1.3208)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "f31c1f59-942c-449e-91cd-53a0e695b224")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/lib/footprints/Bivar_SLP3_Light_Pipe.pretty/SLP3-150-100-F.STEP"
+		(offset
+			(xyz 0 -2.7 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)

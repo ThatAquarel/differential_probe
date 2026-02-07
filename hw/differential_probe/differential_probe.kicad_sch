@@ -166,6 +166,377 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:RFShield_OnePiece"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "RFShield_OnePiece"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "One-piece EMI RF shielding cabinet"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "RF EMI shielding cabinet"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "RFShield_OnePiece_0_1"
+				(polyline
+					(pts
+						(xy -15.24 6.35) (xy -15.24 7.62) (xy -13.97 7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -15.24 2.54) (xy -15.24 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -15.24 -1.27) (xy -15.24 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -15.24 -5.08) (xy -15.24 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -13.97 -7.62) (xy -15.24 -7.62) (xy -15.24 -6.35)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -12.7 7.62) (xy -10.16 7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -10.16 -7.62) (xy -12.7 -7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -6.35 7.62) (xy -8.89 7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -6.35 -7.62) (xy -8.89 -7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 7.62) (xy -5.08 7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -7.62) (xy -5.08 -7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -7.62) (xy 1.27 -7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 7.62) (xy -1.27 7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -7.62) (xy 5.08 -7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 7.62) (xy 2.54 7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 -7.62) (xy 8.89 -7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.89 7.62) (xy 6.35 7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -7.62) (xy 12.7 -7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 7.62) (xy 10.16 7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 13.97 -7.62) (xy 15.24 -7.62) (xy 15.24 -6.35)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 15.24 6.35) (xy 15.24 7.62) (xy 13.97 7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 15.24 2.54) (xy 15.24 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 15.24 -1.27) (xy 15.24 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 15.24 -5.08) (xy 15.24 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "RFShield_OnePiece_1_1"
+				(pin passive line
+					(at 0 -10.16 90)
+					(length 2.54)
+					(name "Shield"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -270,7 +641,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 97.79) (xy 177.8 97.79)
+			(xy 129.54 99.06) (xy 151.13 99.06)
 		)
 		(stroke
 			(width 0)
@@ -280,7 +651,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 101.6) (xy 220.98 100.33)
+			(xy 194.31 102.87) (xy 194.31 101.6)
 		)
 		(stroke
 			(width 0)
@@ -290,7 +661,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 100.33) (xy 177.8 100.33)
+			(xy 129.54 101.6) (xy 151.13 101.6)
 		)
 		(stroke
 			(width 0)
@@ -300,7 +671,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 100.33) (xy 217.17 100.33)
+			(xy 194.31 101.6) (xy 190.5 101.6)
 		)
 		(stroke
 			(width 0)
@@ -310,7 +681,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 100.33) (xy 212.09 100.33)
+			(xy 176.53 101.6) (xy 185.42 101.6)
 		)
 		(stroke
 			(width 0)
@@ -320,7 +691,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_Coaxial_Small")
-		(at 214.63 100.33 0)
+		(at 187.96 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -328,8 +699,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "370bd808-8cd1-4301-bdea-a7b88b4b2aea")
-		(property "Reference" "J1"
-			(at 214.1104 93.98 0)
+		(property "Reference" "J2"
+			(at 187.4404 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -337,7 +708,7 @@
 			)
 		)
 		(property "Value" "IPX"
-			(at 214.1104 96.52 0)
+			(at 187.4404 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -345,7 +716,7 @@
 			)
 		)
 		(property "Footprint" "IPX:BWIPX-1-001E"
-			(at 214.63 100.33 0)
+			(at 187.96 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -354,7 +725,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 214.63 100.33 0)
+			(at 187.96 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -363,7 +734,25 @@
 			)
 		)
 		(property "Description" "small coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-			(at 214.63 100.33 0)
+			(at 187.96 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 187.96 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR PART #" "C496552"
+			(at 187.96 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -380,7 +769,7 @@
 		(instances
 			(project ""
 				(path "/e475881e-4af4-44b2-a426-a388e1088f28"
-					(reference "J1")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -388,16 +777,16 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 220.98 101.6 0)
+		(at 223.52 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "c83f9536-c4a6-4c88-8766-070670323152")
-		(property "Reference" "#PWR019"
-			(at 220.98 107.95 0)
+		(uuid "ab5e3711-3ed2-4606-8755-791e16a7d7da")
+		(property "Reference" "#PWR02"
+			(at 223.52 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -406,7 +795,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 220.98 106.68 0)
+			(at 223.52 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -414,7 +803,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 220.98 101.6 0)
+			(at 223.52 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -423,7 +812,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 220.98 101.6 0)
+			(at 223.52 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -432,7 +821,73 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 220.98 101.6 0)
+			(at 223.52 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "02e625cb-020d-448d-b345-1735f0719c70")
+		)
+		(instances
+			(project "differential_probe"
+				(path "/e475881e-4af4-44b2-a426-a388e1088f28"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 194.31 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c83f9536-c4a6-4c88-8766-070670323152")
+		(property "Reference" "#PWR01"
+			(at 194.31 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 194.31 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 194.31 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 194.31 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 194.31 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -446,14 +901,98 @@
 		(instances
 			(project ""
 				(path "/e475881e-4af4-44b2-a426-a388e1088f28"
-					(reference "#PWR019")
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:RFShield_OnePiece")
+		(at 223.52 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cae58f0a-2ddf-4666-a1af-499172c94a2b")
+		(property "Reference" "J1"
+			(at 240.03 99.0599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "RFShield_OnePiece"
+			(at 240.03 101.5999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 223.52 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 223.52 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "One-piece EMI RF shielding cabinet"
+			(at 223.52 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 223.52 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR PART #" ""
+			(at 223.52 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a71511df-3c2b-4ab4-a2be-cde93160a4ba")
+		)
+		(instances
+			(project "differential_probe"
+				(path "/e475881e-4af4-44b2-a426-a388e1088f28"
+					(reference "J1")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(sheet
-		(at 86.36 93.98)
+		(at 59.69 95.25)
 		(size 25.4 10.16)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -469,7 +1008,7 @@
 		)
 		(uuid "1db4a066-6458-4c4b-a315-5c8f494bcdb9")
 		(property "Sheetname" "power"
-			(at 86.36 93.2684 0)
+			(at 59.69 94.5384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -478,7 +1017,7 @@
 			)
 		)
 		(property "Sheetfile" "power.kicad_sch"
-			(at 86.36 104.7246 0)
+			(at 59.69 105.9946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -495,7 +1034,7 @@
 		)
 	)
 	(sheet
-		(at 177.8 93.98)
+		(at 151.13 95.25)
 		(size 25.4 10.16)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -511,7 +1050,7 @@
 		)
 		(uuid "83ca1ea1-200e-47ca-a388-a41ab5f208fb")
 		(property "Sheetname" "amplifiers"
-			(at 177.8 93.2684 0)
+			(at 151.13 94.5384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -520,7 +1059,7 @@
 			)
 		)
 		(property "Sheetfile" "amplifiers.kicad_sch"
-			(at 177.8 104.7246 0)
+			(at 151.13 105.9946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -529,7 +1068,7 @@
 			)
 		)
 		(pin "AMP_IN+" input
-			(at 177.8 97.79 180)
+			(at 151.13 99.06 180)
 			(uuid "4c7808cd-d164-4d1f-8053-6aeeaff76811")
 			(effects
 				(font
@@ -539,7 +1078,7 @@
 			)
 		)
 		(pin "AMP_IN-" input
-			(at 177.8 100.33 180)
+			(at 151.13 101.6 180)
 			(uuid "f6c2b1b7-9cdc-4a3c-bfff-35dc63a01c1d")
 			(effects
 				(font
@@ -549,7 +1088,7 @@
 			)
 		)
 		(pin "AMP_OUT" output
-			(at 203.2 100.33 0)
+			(at 176.53 101.6 0)
 			(uuid "f0ed19ef-0ba8-46a9-bcbe-7cd31f845702")
 			(effects
 				(font
@@ -567,7 +1106,7 @@
 		)
 	)
 	(sheet
-		(at 130.81 93.98)
+		(at 104.14 95.25)
 		(size 25.4 10.16)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -583,7 +1122,7 @@
 		)
 		(uuid "d4988796-0022-482c-ba72-87e2f873664f")
 		(property "Sheetname" "attenuators"
-			(at 130.81 93.2684 0)
+			(at 104.14 94.5384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -592,7 +1131,7 @@
 			)
 		)
 		(property "Sheetfile" "attenuators.kicad_sch"
-			(at 130.81 104.7246 0)
+			(at 104.14 105.9946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -601,7 +1140,7 @@
 			)
 		)
 		(pin "ATTEN+" output
-			(at 156.21 97.79 0)
+			(at 129.54 99.06 0)
 			(uuid "33657f07-67ee-4676-bed6-3c445af41126")
 			(effects
 				(font
@@ -611,7 +1150,7 @@
 			)
 		)
 		(pin "ATTEN-" output
-			(at 156.21 100.33 0)
+			(at 129.54 101.6 0)
 			(uuid "edf25e4c-ddf0-470c-bbf9-4376ac2cff3e")
 			(effects
 				(font

@@ -1,4 +1,4 @@
-25617054229850529
+25629463915973423
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -384,6 +384,13 @@ battery CR-3032 coin cell vertical
 0
 2
 2
+Bivar_SLP3_Light_Pipe
+SLP3-150-100-F
+
+
+0
+0
+0
 Button_Switch_Keyboard
 SW_Cherry_MX_1.00u_PCB
 Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf
@@ -60213,6 +60220,13 @@ Fuse Fuseholder TR5 Littelfuse/Wickmann No. 460 No560
 0
 2
 2
+G_SWITCH_USB-C
+USB_C_Receptacle_G-Switch_GT-USB-7043
+USB 2.0 Type C Receptacle, GCT, 16P, top mounted, horizontal, 5A: https://gct.co/files/drawings/usb4105.pdf
+USB C Type-C Receptacle SMD USB 2.0 16P 16C USB4105-15-A USB4105-15-A-060 USB4105-15-A-120 USB4105-GF-A USB4105-GF-A-060 USB4105-GF-A-120
+0
+20
+17
 Heatsink
 Heatsink_35x26mm_1xFixation3mm_Fischer-SK486-35
 Heatsink, 35mm x 26mm, 1x Fixation 3mm, Fischer SK486-35
@@ -102647,6 +102661,41 @@ Varistor VF
 0
 2
 2
+WE Chokes
+L_Wurth_WE-CNSW-0603
+Common Mode Line Filter, body 1.6x0.85x1.1mm, https://www.we-online.com/en/components/products/WE-CNSW#/articles/WE-CNSW-0603
+SMT
+0
+4
+4
+WE Chokes
+L_Wurth_WE-CNSW-0805
+Common Mode Line Filter, body 2x1.2x1.2mm, https://www.we-online.com/en/components/products/WE-CNSW#/articles/WE-CNSW-0805
+SMT
+0
+4
+4
+WE Chokes
+L_Wurth_WE-CNSW-1206
+Common Mode Line Filter, body 3.2x1.6x1.8mm, https://www.we-online.com/en/components/products/WE-CNSW#/articles/WE-CNSW-1206
+SMT
+0
+4
+4
+WE Chokes
+L_Wurth_WE-CNSW-1210
+Common Mode Line Filter, body 3.2x2.5x2.4mm, https://www.we-online.com/en/components/products/WE-CNSW#/articles/WE-CNSW-1210
+SMT
+0
+4
+4
+WE Chokes
+L_Wurth_WE-CNSW-1812
+Common Mode Line Filter, body 3.2x4.5x2.8mm, https://www.we-online.com/en/components/products/WE-CNSW#/articles/WE-CNSW-1812
+SMT
+0
+4
+4
 WE Inductor
 T_Wurth_WE-PPTI-1006
 Push-Pull Transformers, body 7.14x6.73x4.19mm, https://www.we-online.com/en/components/products/WE-PPTI#/articles/WE-PPTI-1006

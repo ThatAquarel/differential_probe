@@ -1,5 +1,8 @@
 (fp_lib_table
   (version 7)
   (lib (name "WE Inductor")(type "KiCad")(uri "${KIPRJMOD}/lib/footprints/Transformer_SMD_Wurth.pretty")(options "")(descr ""))
+  (lib (name "WE Chokes")(type "KiCad")(uri "${KIPRJMOD}/lib/footprints/Inductor_SMD_Wurth.pretty")(options "")(descr ""))
   (lib (name "IPX")(type "KiCad")(uri "${KIPRJMOD}/lib/footprints/IPX.pretty")(options "")(descr ""))
+  (lib (name "G_SWITCH_USB-C")(type "KiCad")(uri "${KIPRJMOD}/lib/footprints/G_SWITCH_USB-C.pretty")(options "")(descr ""))
+  (lib (name "Bivar_SLP3_Light_Pipe")(type "KiCad")(uri "${KIPRJMOD}/lib/footprints/Bivar_SLP3_Light_Pipe.pretty")(options "")(descr ""))
 )

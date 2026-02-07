@@ -1,4 +1,6 @@
 (sym_lib_table
   (version 7)
   (lib (name "WE inductor")(type "KiCad")(uri "${KIPRJMOD}/lib/symbols/Transformer_Wurth_WE-PPTI.kicad_sym")(options "")(descr ""))
+  (lib (name "WE chokes")(type "KiCad")(uri "${KIPRJMOD}/lib/symbols/Inductor_Wurth_WE-CNSW.kicad_sym")(options "")(descr ""))
+  (lib (name "THS309xD")(type "KiCad")(uri "${KIPRJMOD}/lib/symbols/THS309xD.kicad_sym")(options "")(descr ""))
 )
